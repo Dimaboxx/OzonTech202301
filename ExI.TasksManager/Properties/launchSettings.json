@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExI.TasksManager": {
+      "commandName": "Project",
+      "commandLineArgs": "< 11 > 11.out"
+    }
+  }
+}

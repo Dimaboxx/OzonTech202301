@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExG.Friends": {
+      "commandName": "Project",
+      "commandLineArgs": "< 13 > 13.out"
+    }
+  }
+}

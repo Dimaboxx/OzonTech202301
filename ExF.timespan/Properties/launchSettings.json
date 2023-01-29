@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExF.timespan": {
+      "commandName": "Project",
+      "commandLineArgs": "< 01 > 01.out"
+    }
+  }
+}
