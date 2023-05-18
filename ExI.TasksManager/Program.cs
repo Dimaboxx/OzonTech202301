@@ -37,7 +37,7 @@ namespace ExI.TasksManager
             {
                 SystemTime.CurrentTime = Tasks[ti][0];
                 //if (processorWorkSet.Count > 0) 
-                while ( (processorWorkSet.Count > 0)&&(processorWorkSet.Peek().TimeEndTask <= SystemTime.CurrentTime) )
+                while ( (processorWorkSet.Count > 0) && (processorWorkSet.Peek().TimeEndTask <= SystemTime.CurrentTime) )
                 {
                     Processor p = processorWorkSet.Dequeue();
                     processorFreeSet.Enqueue(p, p.Power);
